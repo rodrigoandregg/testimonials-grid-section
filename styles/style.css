@@ -29,6 +29,11 @@ body {
     background-color: var(--mainbg);
 }
 
+h1 {
+    opacity: 0;
+    position: absolute;
+}
+
 .main__testimonials {
     display: flex;
     justify-content: center;
