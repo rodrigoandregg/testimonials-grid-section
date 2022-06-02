@@ -15,6 +15,7 @@
     --paragraph2: hsl(264, 71%, 81%);
     --paragraph3: hsl(0, 0%, 68%);
     --mainbg: hsl(210, 46%, 95%);
+    --shadow: hsl(218, 19%, 77%);
 }
 
 * {
@@ -56,6 +57,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    box-shadow: 0 10px 20px var(--shadow);
 }
 
 .testimonial__card:nth-child(2) {
